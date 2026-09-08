@@ -1,0 +1,8 @@
+[phases.install]
+cmds = ["npm ci"]
+
+[phases.build]
+cmds = ["npx vite build", "test -f dist/index.html"]
+
+[start]
+cmd = "npm run start"

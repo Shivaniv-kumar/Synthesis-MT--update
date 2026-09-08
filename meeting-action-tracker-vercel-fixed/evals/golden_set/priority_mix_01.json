@@ -1,0 +1,35 @@
+{
+  "id": "priority_mix_01",
+  "description": "4 items with explicit priority signals: 'critical'/'ASAP' -> High, 'whenever you get a chance' -> Low, 'urgent'/'blocking' -> High, 'not time-sensitive' -> Low. Tests priority classification from natural language signals.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Investigate and resolve API error rate spike",
+      "owner": "Felix Braun",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["API error", "critical", "ASAP", "spiked", "top priority"]
+    },
+    {
+      "task": "Audit icon library for consistency",
+      "owner": "Anika Patel",
+      "priority": "Low",
+      "due_date": null,
+      "context_keywords": ["icon library", "audit", "whenever", "no hard deadline", "spare cycles"]
+    },
+    {
+      "task": "Fix test environment instability",
+      "owner": "Chris Odom",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["test environment", "flaky", "blocking", "urgent", "QA"]
+    },
+    {
+      "task": "Write REST vs GraphQL migration analysis for partner API",
+      "owner": "Felix Braun",
+      "priority": "Low",
+      "due_date": null,
+      "context_keywords": ["GraphQL", "REST", "migration", "analysis", "strategic", "not time-sensitive"]
+    }
+  ]
+}

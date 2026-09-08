@@ -1,0 +1,6 @@
+{
+  "id": "no_actions_01",
+  "description": "Purely social chat with zero action items. Tests that the extractor does not hallucinate actions from informal conversation.",
+  "expected_empty": true,
+  "expected_items": []
+}

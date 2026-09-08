@@ -1,0 +1,28 @@
+{
+  "id": "executive_01",
+  "description": "Executive briefing with 3 strategic action items using formal, vague language (e.g., 'develop', 'synthesize', 'bring back for alignment'). Tests extraction of commitment from high-register strategic discourse.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Prepare comprehensive unit economics analysis (LTV, CAC, payback period by segment) for board",
+      "owner": "Susan Park",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["unit economics", "LTV", "CAC", "board", "Series B", "two weeks before"]
+    },
+    {
+      "task": "Develop enterprise go-to-market strategy document for executive review",
+      "owner": "James Whitfield",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["enterprise", "GTM", "go-to-market", "strategy", "within the month", "executive review"]
+    },
+    {
+      "task": "Synthesize customer interview findings into product positioning narrative",
+      "owner": "Rachel Kim",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["customer interview", "product positioning", "narrative", "end of next week", "working draft"]
+    }
+  ]
+}

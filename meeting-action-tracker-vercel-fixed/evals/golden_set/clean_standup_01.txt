@@ -1,0 +1,13 @@
+Daily Standup — Engineering Team
+Date: 2026-06-10
+Attendees: Marcus Webb, Priya Nair, Jordan Holt, Facilitator: Dana Cruz
+
+Dana: Alright let's keep it quick. Marcus, you're up.
+
+Marcus: Yesterday I finished the database migration scripts for the user table. Today I'm working on the integration tests. Blocker: I need Priya to review the schema changes before I can merge — can you do that by end of day, Priya?
+
+Priya: Sure, I'll review Marcus's schema PR by end of day today. Yesterday I was heads-down on the notification service refactor. Today I need to update the Slack webhook configuration — the staging endpoint changed. Jordan, can you send me the new webhook URL?
+
+Jordan: Yeah I'll send you that URL right after standup, Priya. Yesterday I wrapped up the frontend pagination component. Today I'm starting on the filter panel. No blockers. Oh, and I still need to write the unit tests for the pagination component — I'll have those done by tomorrow.
+
+Dana: Great. No blockers from my side. Let's sync again tomorrow same time.

@@ -1,0 +1,3 @@
+# Hand-labelled transcripts go here. 15-25 transcripts spanning:
+# clean notes, messy transcripts, multilingual, and no-action-item cases.
+# Format per transcript: <name>.txt (input) + <name>.labels.json (expected output)

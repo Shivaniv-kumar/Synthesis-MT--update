@@ -1,0 +1,21 @@
+[Auto-generated transcript — low confidence, multiple speakers]
+
+Speaker 1: ok so uh yeah like we said last time the— the onboarding thing is still broken right like new users can't get through step three without the app just sort of hanging and that's been— yeah that's been a week now
+
+Speaker 2: yeah I know I know I was gonna look at it but then the release stuff happened so— but yeah Nick should probably just own that one right? Like Nick you're gonna fix the onboarding bug this week?
+
+Speaker 3 (Nick): Yeah yeah fine I'll fix it. I'll have it done by end of week. The uh— actually before that, did anyone send the updated API docs to the client? Because I think Tanya was supposed to—
+
+Speaker 2: Oh god, right. Tanya — you need to send those API docs to the client. That's overdue. That's high priority now.
+
+Speaker 4 (Tanya): Yes yes I know, I know, sorry I— I'll send the API documentation to the client today. Like right after this call.
+
+Speaker 1: ok good. Um there was something else— oh yeah the load testing. We never did load testing on the new payment endpoint. Someone needs to— who's gonna own that?
+
+Speaker 2: That should be... QA? Or DevOps? Let's say— let's say Marcus from DevOps. Marcus can run load tests on the payment endpoint before the release, which is... the 19th?
+
+Speaker 1: Yeah the release is June 19th.
+
+Speaker 2: So Marcus, load test the payment endpoint before June 19th. Ok? We'll follow up async.
+
+Speaker 1: sounds good, ok are we— are we done?

@@ -1,0 +1,21 @@
+{
+  "id": "messy_transcript_02",
+  "description": "Very messy transcript with timestamps, partial sentences, and overlapping speech. Only 2 recoverable action items. Tests extraction from poor-quality input.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Clean up leftover environment variables from legacy service",
+      "owner": "Priya",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["env vars", "environment variables", "legacy", "config"]
+    },
+    {
+      "task": "Send enterprise usage report to enterprise customers",
+      "owner": "Diego Flores",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["usage report", "enterprise", "end of June", "customers"]
+    }
+  ]
+}

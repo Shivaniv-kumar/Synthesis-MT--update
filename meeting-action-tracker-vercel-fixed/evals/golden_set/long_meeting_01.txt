@@ -1,0 +1,43 @@
+Quarterly Planning Session — Product & Engineering
+Date: 2026-06-08
+Attendees: Rachel Kim (PM), Dev Patel (Eng Lead), Fatima Al-Hassan (Backend), Tomasz Kowalski (Frontend), Mei Lin (Data), Yusuf Okafor (DevOps), Carmen Ruiz (Design), Facilitator: Brad Simmons
+
+Brad: Good morning everyone. We have a lot to cover today. Let's get started. Agenda: roadmap priorities, infrastructure upgrades, design system migration, data platform, and staffing.
+
+Rachel: Thanks Brad. Before we dive into roadmap, I want to call out that our NPS scores dropped four points last quarter. The biggest driver in user feedback was slow load times on the dashboard. So performance has to be a top priority this quarter.
+
+Dev: Agreed. On the engineering side, we've identified the culprit — our database query for the main dashboard aggregation is not using the composite index we added in March. Fatima, can you investigate and fix that query optimization? It's urgent. I'd like that resolved by end of this week.
+
+Fatima: Understood. I'll investigate and fix the dashboard query optimization by end of this week.
+
+Rachel: Great. Carmen, on the design side — we've been running on the old design system for two years. When are we migrating?
+
+Carmen: We've been building out the new component library. I'll need Tomasz's help on the frontend implementation side. My part — I'll deliver the complete component specification document by June 22nd so development can start.
+
+Tomasz: Once I have Carmen's specs, I'll implement the core components in the new design system. I'll plan to have the first set — navigation, buttons, forms — done by July 6th.
+
+Brad: Noted. Mei, data platform?
+
+Mei: Two things. First, the event pipeline has a gap — we're not capturing mobile app events correctly, so our funnel analysis is incomplete. I need to fix the mobile event tracking schema and backfill the last 30 days of data. That's a medium-priority item, but I want it done before end of this month, so by June 28th.
+
+Second, we need a self-serve analytics dashboard for the customer success team. They're spending hours each week pulling manual reports. I'll build the first version of that dashboard and have it ready for their review by July 3rd.
+
+Yusuf: On infrastructure — we have two things. The Kubernetes cluster is running on version 1.26 which goes end-of-life in September. I'll plan and execute the upgrade to 1.30 before September — I'll target having it done in staging by end of July.
+
+Also, we still don't have automated backups verified for the production database. I've been meaning to set that up. I'll implement and test the automated database backup verification process by June 21st — that's genuinely urgent.
+
+Dev: Good catch, Yusuf. That's critical.
+
+Rachel: On the staffing front — we've had an open senior backend role for three months. Fatima, you agreed to take point on interviewing. Can you schedule the remaining technical interviews with the two finalists?
+
+Fatima: Yes, I'll schedule and conduct the technical interviews with the two backend engineer finalists by end of next week, June 19th.
+
+Rachel: Perfect. Last item — we need to renew the Datadog contract. It expires June 30th. Dev, can you own that renewal?
+
+Dev: I'll handle the Datadog contract renewal and get it done before June 30th.
+
+Brad: Excellent. Let's recap and make sure everyone has clarity on their items before we wrap up.
+
+Rachel: One thing I forgot — I need to write the Q3 product brief and share it with the group by June 15th so everyone can plan capacity. I'll have that out by Monday.
+
+Brad: Great. That's a wrap. See you all in two weeks for the mid-sprint check-in.

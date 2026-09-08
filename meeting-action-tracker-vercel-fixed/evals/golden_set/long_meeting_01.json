@@ -1,0 +1,70 @@
+{
+  "id": "long_meeting_01",
+  "description": "800+ word quarterly planning session with 7 action items spread throughout. Tests extraction coverage over a long transcript with diverse topics.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Investigate and fix dashboard aggregation query to use composite index",
+      "owner": "Fatima Al-Hassan",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["dashboard", "query", "composite index", "optimization", "end of week"]
+    },
+    {
+      "task": "Deliver complete component specification document for new design system",
+      "owner": "Carmen Ruiz",
+      "priority": "Medium",
+      "due_date": "2026-06-22",
+      "context_keywords": ["component", "specification", "design system", "June 22"]
+    },
+    {
+      "task": "Implement core components for new design system (navigation, buttons, forms)",
+      "owner": "Tomasz Kowalski",
+      "priority": "Medium",
+      "due_date": "2026-07-06",
+      "context_keywords": ["implement", "components", "navigation", "buttons", "forms", "July 6"]
+    },
+    {
+      "task": "Fix mobile event tracking schema and backfill 30 days of pipeline data",
+      "owner": "Mei Lin",
+      "priority": "Medium",
+      "due_date": "2026-06-28",
+      "context_keywords": ["mobile", "event tracking", "backfill", "funnel", "June 28"]
+    },
+    {
+      "task": "Build self-serve analytics dashboard for customer success team",
+      "owner": "Mei Lin",
+      "priority": "Medium",
+      "due_date": "2026-07-03",
+      "context_keywords": ["analytics dashboard", "customer success", "self-serve", "July 3"]
+    },
+    {
+      "task": "Implement and test automated database backup verification process",
+      "owner": "Yusuf Okafor",
+      "priority": "High",
+      "due_date": "2026-06-21",
+      "context_keywords": ["backup", "verification", "database", "automated", "June 21"]
+    },
+    {
+      "task": "Schedule and conduct technical interviews with backend engineer finalists",
+      "owner": "Fatima Al-Hassan",
+      "priority": "Medium",
+      "due_date": "2026-06-19",
+      "context_keywords": ["interviews", "finalists", "backend", "technical", "June 19"]
+    },
+    {
+      "task": "Renew Datadog contract before expiry",
+      "owner": "Dev Patel",
+      "priority": "High",
+      "due_date": "2026-06-30",
+      "context_keywords": ["Datadog", "contract", "renewal", "June 30"]
+    },
+    {
+      "task": "Write and share Q3 product brief",
+      "owner": "Rachel Kim",
+      "priority": "High",
+      "due_date": "2026-06-15",
+      "context_keywords": ["Q3", "product brief", "June 15", "Monday"]
+    }
+  ]
+}

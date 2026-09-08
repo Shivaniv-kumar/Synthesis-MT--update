@@ -1,0 +1,49 @@
+{
+  "id": "product_review_01",
+  "description": "Product review meeting with 5 action items of mixed priorities including urgent hotfix, design feedback, QA automation, data dashboard, and research task.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Hotfix production API rate limiter misconfiguration",
+      "owner": "Dev Patel",
+      "priority": "High",
+      "due_date": "2026-06-09",
+      "context_keywords": ["rate limiter", "production", "throttling", "urgent", "today"]
+    },
+    {
+      "task": "Deliver high-fidelity onboarding redesign mockups for stakeholder review",
+      "owner": "Camille Fontaine",
+      "priority": "Medium",
+      "due_date": "2026-06-20",
+      "context_keywords": ["mockups", "onboarding", "high-fidelity", "June 20"]
+    },
+    {
+      "task": "Send written feedback on revised user flow to Camille",
+      "owner": "Rachel Kim",
+      "priority": "Medium",
+      "due_date": "2026-06-13",
+      "context_keywords": ["feedback", "user flow", "Friday", "June 13"]
+    },
+    {
+      "task": "Set up automated regression suite for checkout flow",
+      "owner": "Luis Herrera",
+      "priority": "Medium",
+      "due_date": "2026-06-20",
+      "context_keywords": ["automated", "regression", "checkout", "end of next week"]
+    },
+    {
+      "task": "Build Q2 retention and activation metrics dashboard",
+      "owner": "Sandra Osei",
+      "priority": "Medium",
+      "due_date": "2026-06-20",
+      "context_keywords": ["retention", "activation", "metrics", "dashboard", "Q2"]
+    },
+    {
+      "task": "Write caching library comparison document",
+      "owner": "Dev Patel",
+      "priority": "Low",
+      "due_date": "2026-06-23",
+      "context_keywords": ["caching", "comparison", "libraries", "two weeks"]
+    }
+  ]
+}

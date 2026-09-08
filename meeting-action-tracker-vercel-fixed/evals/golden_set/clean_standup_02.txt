@@ -1,0 +1,13 @@
+Daily Standup — Design Team
+Date: 2026-06-11
+Attendees: Sofia Reyes, Tom Aldridge, Kenji Watanabe
+
+Sofia: Good morning everyone. Tom?
+
+Tom: Morning. Yesterday I finished reviewing the color tokens for the new design system — everything looks solid. Today I'll be continuing on the component library documentation. No blockers, no action items from me.
+
+Kenji: Yesterday I ran the user research synthesis session with the UX researchers. Good output — the themes are clear. Today I'm presenting the synthesis findings to the product team in the afternoon. No blockers.
+
+Sofia: For me, yesterday I wrapped up the accessibility audit on the dashboard. Today I'm writing up the findings report. Everything is on track, nothing blocking. That's it from the design team — have a great day everyone.
+
+Tom: You too. Same time tomorrow.

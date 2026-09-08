@@ -1,0 +1,28 @@
+{
+  "id": "clean_standup_01",
+  "description": "Clean standup notes with 3 clear action items and named owners. Tests basic extraction and owner attribution.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Review schema PR / schema changes",
+      "owner": "Priya Nair",
+      "priority": "Medium",
+      "due_date": "2026-06-10",
+      "context_keywords": ["schema", "review", "merge", "end of day"]
+    },
+    {
+      "task": "Send new Slack webhook URL to Priya",
+      "owner": "Jordan Holt",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["webhook", "URL", "Slack", "staging"]
+    },
+    {
+      "task": "Write unit tests for pagination component",
+      "owner": "Jordan Holt",
+      "priority": "Medium",
+      "due_date": "2026-06-11",
+      "context_keywords": ["unit tests", "pagination", "tomorrow"]
+    }
+  ]
+}

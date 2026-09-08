@@ -1,0 +1,6 @@
+{
+  "id": "no_actions_02",
+  "description": "Brainstorming session with speculative ideas but no committed actions. Tests that speculative discussion ('could we', 'what if') does not produce false-positive action items.",
+  "expected_empty": true,
+  "expected_items": []
+}

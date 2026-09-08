@@ -1,0 +1,23 @@
+Weekly Recurring Sync — Infrastructure Team
+Date: 2026-06-10
+Attendees: Yusuf Okafor, Amara Diallo, Ben Nakamura
+
+Yusuf: Let's go through last week's items first, then new stuff.
+
+Yusuf: From last week — Ben, you had the action to migrate the Redis cluster to the new VPC. What's the status?
+
+Ben: Still in progress. It's the same item from last week — I haven't been able to close it. I'll have it done by Friday this week, June 13th. Same task, just rolling forward.
+
+Yusuf: Noted. We'll keep tracking it. Amara, you were supposed to document the incident response runbook. Done?
+
+Amara: Yes, completed and in Confluence. That one's closed.
+
+Yusuf: Great. Now new items. Amara — the log retention policy has been sitting at 90 days forever but compliance wants us at 30 days for production logs. Can you update the log retention configuration by end of next week?
+
+Amara: Yes, I'll update the log retention policy to 30 days by June 20th.
+
+Yusuf: And Ben — the Terraform state file for the new region is not in the shared backend. That needs to be fixed. Can you migrate the Terraform state to the shared S3 backend?
+
+Ben: Yes, I'll get that done by end of this week, June 13th.
+
+Yusuf: Perfect. See you all next week.

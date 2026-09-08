@@ -1,0 +1,23 @@
+Design Review — Dashboard Redesign
+Date: 2026-06-10
+Attendees: Camille Fontaine (Lead Designer), Raj Mehta (Product), Tara Singh (Frontend), Owen Burke (Accessibility)
+
+Camille: Let's walk through the updated dashboard designs. I've got four screens to show.
+
+[Screen 1 walkthrough — general discussion]
+
+Raj: The widget grid looks great. One thing — I think we need a dark mode variant before we can ship. Camille, can you add dark mode specs to the design file by Friday?
+
+Camille: Yep, I'll add the dark mode color specifications to the design file by Friday.
+
+Tara: On the implementation side, I need to update the chart component library to support the new color tokens from the design system. I'll start on that next sprint, should be done within the sprint.
+
+Owen: I want to flag a few accessibility issues I spotted. The contrast ratio on the secondary button is below WCAG AA. Camille, can you adjust those color values?
+
+Camille: Absolutely. I'll fix the secondary button contrast ratios and push a design update by Friday as well.
+
+Raj: One more — we need to get stakeholder sign-off on the navigation pattern before Tara starts building it. I'll schedule a stakeholder review session for next week and send calendar invites by tomorrow.
+
+Owen: And I'll write up a formal accessibility review report for the dashboard designs. I'll have that to the team by end of next sprint so it's done before dev starts.
+
+Camille: Perfect. I'll consolidate all the feedback into an updated design brief and share it with the group after this meeting.

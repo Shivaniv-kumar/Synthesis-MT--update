@@ -1,0 +1,49 @@
+{
+  "id": "multi_owner_01",
+  "description": "6 action items each assigned to a different named person. Tests that the extractor correctly attributes distinct owners and does not confuse them.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Finalize go-to-market launch plan and send to stakeholders",
+      "owner": "Carlos Mendez",
+      "priority": "High",
+      "due_date": "2026-06-16",
+      "context_keywords": ["go-to-market", "launch plan", "stakeholders", "June 16"]
+    },
+    {
+      "task": "Update sales playbook with new pricing tiers and distribute to sales team",
+      "owner": "Leila Hassan",
+      "priority": "High",
+      "due_date": "2026-06-17",
+      "context_keywords": ["sales playbook", "pricing tiers", "June 17"]
+    },
+    {
+      "task": "Enable feature flag for new billing module in production and verify",
+      "owner": "Tony Zhang",
+      "priority": "High",
+      "due_date": "2026-06-15",
+      "context_keywords": ["feature flag", "billing module", "production", "June 15"]
+    },
+    {
+      "task": "Write and publish customer-facing support documentation for new billing flow",
+      "owner": "Fiona Campbell",
+      "priority": "Medium",
+      "due_date": "2026-06-18",
+      "context_keywords": ["support documentation", "billing flow", "help center", "June 18"]
+    },
+    {
+      "task": "Complete legal review of updated Terms of Service and send redline comments",
+      "owner": "Omar Rashid",
+      "priority": "High",
+      "due_date": "2026-06-14",
+      "context_keywords": ["legal review", "Terms of Service", "redline", "June 14"]
+    },
+    {
+      "task": "Write and send internal launch announcement to company Slack",
+      "owner": "Priya Nair",
+      "priority": "Medium",
+      "due_date": "2026-06-19",
+      "context_keywords": ["launch announcement", "Slack", "internal", "June 19"]
+    }
+  ]
+}

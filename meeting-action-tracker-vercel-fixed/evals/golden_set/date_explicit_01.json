@@ -1,0 +1,35 @@
+{
+  "id": "date_explicit_01",
+  "description": "3 items with explicitly stated calendar dates ('by June 20', 'end of Q2 = June 30'). Tests due-date accuracy on explicit dates.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Complete financial review and send signed contract to DataSystems Inc.",
+      "owner": "Patrick Osei",
+      "priority": "High",
+      "due_date": "2026-06-20",
+      "context_keywords": ["DataSystems", "contract", "signed", "financial review", "June 20"]
+    },
+    {
+      "task": "Collect updated insurance certificates of liability from all three vendors",
+      "owner": "Maria Santos",
+      "priority": "Medium",
+      "due_date": "2026-06-30",
+      "context_keywords": ["insurance certificates", "vendors", "broker", "June 30", "end of Q2"]
+    },
+    {
+      "task": "File Q2 compliance report with regulatory body",
+      "owner": "Linda Cho",
+      "priority": "High",
+      "due_date": "2026-06-30",
+      "context_keywords": ["compliance report", "Q2", "regulatory", "June 30", "end of Q2"]
+    },
+    {
+      "task": "Prepare and submit Q2 budget variance report to CFO",
+      "owner": "Patrick Osei",
+      "priority": "High",
+      "due_date": "2026-06-20",
+      "context_keywords": ["budget variance", "Q2", "CFO", "June 20"]
+    }
+  ]
+}

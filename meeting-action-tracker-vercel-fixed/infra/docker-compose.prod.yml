@@ -1,0 +1,76 @@
+# Production deployment overrides.
+# Usage: docker compose -f docker-compose.yml -f infra/docker-compose.prod.yml up -d
+#
+# What this file changes vs the base:
+#   - Frontend: builds the production nginx image instead of the Vite dev server
+#   - api/worker/beat: enforce restart=always and resource limits
+#   - No volume source mounts (code is baked into images)
+#   - ENVIRONMENT=production
+
+version: "3.9"
+
+services:
+
+  api:
+    restart: always
+    environment:
+      ENVIRONMENT: production
+      DEBUG: "false"
+    deploy:
+      resources:
+        limits:
+          cpus: "1.0"
+          memory: 1G
+
+  worker:
+    restart: always
+    environment:
+      ENVIRONMENT: production
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2G
+
+  beat:
+    restart: always
+    environment:
+      ENVIRONMENT: production
+    deploy:
+      resources:
+        limits:
+          cpus: "0.25"
+          memory: 256M
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      target: production          # builds the nginx stage
+      args:
+        VITE_API_URL: ${VITE_API_URL:-/api}   # relative path works when nginx proxies /api/
+    ports:
+      - "80:80"
+    depends_on:
+      api:
+        condition: service_healthy
+
+  postgres:
+    restart: always
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  redis:
+    restart: always
+    command: redis-server --save 60 1 --loglevel warning
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+
+  # MinIO is not recommended for production — replace with real AWS S3.
+  # Remove the minio and minio-init services from this override to disable.
+  minio:
+    restart: always

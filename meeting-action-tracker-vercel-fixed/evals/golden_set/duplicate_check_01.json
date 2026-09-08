@@ -1,0 +1,28 @@
+{
+  "id": "duplicate_check_01",
+  "description": "Recurring meeting that references a task carried over from last week (Redis migration) plus 2 genuinely new items. Tests deduplication awareness — the carried-over item should be extracted but ideally flagged as recurring.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Migrate Redis cluster to new VPC",
+      "owner": "Ben Nakamura",
+      "priority": "Medium",
+      "due_date": "2026-06-13",
+      "context_keywords": ["Redis", "VPC", "migrate", "Friday", "June 13", "rolling forward"]
+    },
+    {
+      "task": "Update log retention policy to 30 days for production logs",
+      "owner": "Amara Diallo",
+      "priority": "Medium",
+      "due_date": "2026-06-20",
+      "context_keywords": ["log retention", "30 days", "compliance", "production", "June 20"]
+    },
+    {
+      "task": "Migrate Terraform state file to shared S3 backend",
+      "owner": "Ben Nakamura",
+      "priority": "Medium",
+      "due_date": "2026-06-13",
+      "context_keywords": ["Terraform", "state", "S3", "shared backend", "June 13"]
+    }
+  ]
+}

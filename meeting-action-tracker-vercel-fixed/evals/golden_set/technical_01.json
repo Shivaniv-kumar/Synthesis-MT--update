@@ -1,0 +1,35 @@
+{
+  "id": "technical_01",
+  "description": "Engineering discussion with 4 technical action items: a bug fix PR, a code review, CI/CD automation, and a regional deployment. Tests extraction accuracy in a technical vocabulary context.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Open PR to fix memory leak in job queue worker connection handling",
+      "owner": "Hiroshi Tanaka",
+      "priority": "High",
+      "due_date": "2026-06-11",
+      "context_keywords": ["memory leak", "job queue", "worker", "connection handling", "PR", "tomorrow"]
+    },
+    {
+      "task": "Code review Hiroshi's job queue worker connection handling PR",
+      "owner": "Fatima Al-Hassan",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["code review", "connection handling", "PR", "one business day", "blocking"]
+    },
+    {
+      "task": "Implement automated deployment pipeline using GitHub Actions",
+      "owner": "Sam Obi",
+      "priority": "Medium",
+      "due_date": "2026-06-17",
+      "context_keywords": ["automated", "deployment pipeline", "GitHub Actions", "staging", "June 17"]
+    },
+    {
+      "task": "Deploy search service to EU region for data residency compliance",
+      "owner": "Valentina Cruz",
+      "priority": "High",
+      "due_date": "2026-06-21",
+      "context_keywords": ["search service", "EU region", "data residency", "deployment", "June 21"]
+    }
+  ]
+}

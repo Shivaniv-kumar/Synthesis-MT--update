@@ -1,0 +1,28 @@
+{
+  "id": "date_relative_01",
+  "description": "3 items with only relative due dates: 'EOD tomorrow', 'next Monday', 'end of sprint'. Tests relative date extraction and notes that resolved dates depend on meeting anchor date of 2026-06-09.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Complete push notification permission flow on iOS",
+      "owner": "Rohan Bose",
+      "priority": "High",
+      "due_date": "2026-06-10",
+      "context_keywords": ["push notification", "iOS", "permission", "EOD tomorrow", "blocking"]
+    },
+    {
+      "task": "Fix Android crash on screen rotation on profile page",
+      "owner": "Dani Cruz",
+      "priority": "High",
+      "due_date": "2026-06-15",
+      "context_keywords": ["crash", "Android", "rotate", "profile", "next Monday"]
+    },
+    {
+      "task": "Implement batch item update endpoint on backend",
+      "owner": "Wendy Larson",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["batch", "endpoint", "backend", "end of sprint", "integrate"]
+    }
+  ]
+}

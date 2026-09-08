@@ -1,0 +1,23 @@
+Brainstorming Session — Future Product Direction
+Date: 2026-06-08
+Attendees: Rachel Kim, Dev Patel, Carmen Ruiz, Mei Lin
+
+Rachel: This is a pure brainstorm. Nothing decided today. Let's just think out loud. What could we build in the next two years that we'd be really proud of?
+
+Dev: I've been thinking about a fully offline-capable mode. Like, what if you could use the app on a plane with no connectivity and it just syncs when you reconnect?
+
+Carmen: Ooh, or what about AI-assisted design suggestions inside the product itself? Like, you upload your brand kit and it suggests layouts?
+
+Mei: That's interesting. I've been daydreaming about predictive analytics — where the system tells you which action items are at risk of slipping before they're overdue.
+
+Rachel: I love all of these. What about integrations? Could we be the connective tissue between all the tools people already use?
+
+Dev: The challenge is breadth. There are hundreds of tools. We'd need a plugin ecosystem.
+
+Carmen: Or a marketplace. Third-party developers building integrations. That could be huge.
+
+Mei: The AI angle feels most differentiated to me. The predictive stuff could really set us apart.
+
+Rachel: Great energy in this session. Let's park all of these and revisit next quarter when we do the 2027 planning cycle. No commitments today — this was just to get ideas on the table.
+
+Dev: Good session. Lots to think about.

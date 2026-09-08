@@ -1,0 +1,28 @@
+{
+  "id": "first_person_01",
+  "description": "First-person single-speaker memo. All items use 'I'll' or 'I need to'. Speaker is Alex Chen. Tests first-person owner resolution.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Rewrite API documentation",
+      "owner": "Alex Chen",
+      "priority": "Medium",
+      "due_date": "2026-06-20",
+      "context_keywords": ["API documentation", "rewrite", "backlog", "partner team", "June 20"]
+    },
+    {
+      "task": "Send Q2 performance report to stakeholders",
+      "owner": "Alex Chen",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["Q2", "performance report", "stakeholders", "Friday"]
+    },
+    {
+      "task": "Write database connection pool configuration spec for infrastructure team",
+      "owner": "Alex Chen",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["database", "connection pool", "configuration spec", "infrastructure", "Wednesday"]
+    }
+  ]
+}

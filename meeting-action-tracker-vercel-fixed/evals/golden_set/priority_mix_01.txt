@@ -1,0 +1,23 @@
+Team Retrospective & Planning
+Date: 2026-06-09
+Attendees: Sara Ling (PM), Felix Braun (Engineering), Anika Patel (Design), Chris Odom (QA)
+
+Sara: Let's get through the action items from retro quickly. Felix — the API error rate spiked last week. That needs to be fixed ASAP. It's critical.
+
+Felix: Agreed, it's critical. I'll investigate and resolve the API error rate spike — treating that as my top priority. I'll have a fix deployed by tomorrow.
+
+Sara: Good. Next — Anika, the icon library. There's no urgency on this, really, but it would be nice to have at some point. Whenever you get a chance, could you audit the icon library for consistency?
+
+Anika: Sure, low priority. I'll audit the icon library for consistency whenever I have spare cycles — probably over the next few weeks, no hard deadline.
+
+Chris: I want to raise the test environment stability. It's been flaky all month. That's been blocking QA. Chris here — I need to fix the test environment instability. That's urgent for us, blocking the whole QA pipeline.
+
+Sara: Yes, urgent. Chris, please prioritize that — this week if possible.
+
+Chris: I'll fix the test environment instability this week.
+
+Sara: Last one — Felix, we've been meaning to evaluate whether we should migrate from REST to GraphQL for the partner API. It's a big strategic question but not time-sensitive. Can you write a pros/cons analysis?
+
+Felix: Yes, I'll write the REST vs GraphQL migration analysis. No hard deadline, it's a whenever-you-get-to-it kind of thing. I'll aim for next month.
+
+Sara: Perfect. Thanks everyone.

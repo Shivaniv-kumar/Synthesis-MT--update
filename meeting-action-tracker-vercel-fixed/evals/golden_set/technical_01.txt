@@ -1,0 +1,23 @@
+Engineering Technical Sync — Backend Platform
+Date: 2026-06-10
+Attendees: Dev Patel (Eng Lead), Fatima Al-Hassan, Hiroshi Tanaka, Valentina Cruz, Sam Obi (DevOps)
+
+Dev: Let's get through the technical items. We have four open from the last incident review.
+
+First — Hiroshi, the memory leak in the job queue worker. That's been causing OOM restarts in production. It's in the worker's connection handling code. Can you open a PR to fix it?
+
+Hiroshi: Yes, I'll open a PR to fix the memory leak in the job queue worker's connection handling. I'll have the PR up for review by tomorrow.
+
+Dev: And Fatima, I'd like you to do the code review on Hiroshi's PR once it's up. Same day turnaround if possible — this is blocking production stability.
+
+Fatima: Got it. I'll review Hiroshi's connection handling PR within one business day of it being opened.
+
+Dev: Good. Sam — the production deployment pipeline is manual right now. Every deploy requires someone to SSH in and run the scripts. We need to automate that.
+
+Sam: I'll implement the automated deployment pipeline using GitHub Actions. I'll have a working draft in staging by June 17th and we can review it together before we promote to prod.
+
+Dev: Great. Last one — Valentina, we need to deploy the new search service to the EU region. The data residency requirement means we can't route EU queries through US East anymore.
+
+Valentina: I'll coordinate and execute the deployment of the search service to the EU region. I'm targeting June 21st for the initial deployment, with a validation period before we cut traffic over.
+
+Dev: Perfect. Let's get those items into the tracker and move on.

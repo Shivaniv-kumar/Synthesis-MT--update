@@ -1,0 +1,29 @@
+Cross-functional Handoff Meeting — Product Launch
+Date: 2026-06-08
+Attendees: Priya Nair (PM), Carlos Mendez (Marketing), Leila Hassan (Sales), Tony Zhang (Engineering), Fiona Campbell (Support), Omar Rashid (Legal)
+
+Priya: We have six open launch-related items and I want each owner to confirm their commitment today.
+
+Carlos, marketing launch plan — where are we?
+
+Carlos Mendez: I'll finalize the go-to-market launch plan and send it to all stakeholders by June 16th.
+
+Priya: Leila — the sales playbook?
+
+Leila Hassan: I'll update the sales playbook with the new pricing tiers and distribute it to the sales team by June 17th.
+
+Priya: Tony — the feature flag?
+
+Tony Zhang: I'll enable the feature flag for the new billing module in production and verify it's working correctly by June 15th.
+
+Priya: Fiona — support documentation?
+
+Fiona Campbell: I'll write the customer-facing support documentation for the new billing flow and publish it to the help center by June 18th.
+
+Priya: Omar — legal review?
+
+Omar Rashid: I'll complete the legal review of the updated Terms of Service and send my redline comments by June 14th.
+
+Priya: And I'll write the internal launch announcement and send it to the company Slack by June 19th. That's our launch day.
+
+Everyone confirmed. Let's deliver. See you at the launch.

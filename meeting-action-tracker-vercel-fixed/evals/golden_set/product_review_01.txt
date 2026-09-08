@@ -1,0 +1,23 @@
+Product Review Meeting — Q3 Roadmap
+Date: 2026-06-09
+Attendees: Rachel Kim (PM), Dev Patel (Engineering Lead), Camille Fontaine (Design), Luis Herrera (QA), Sandra Osei (Data)
+
+Rachel: Thanks everyone for joining. We're here to finalize the Q3 scope. Let's go through the open items.
+
+Dev: Before we get into roadmap, I have an urgent item — the production API rate limiter is misconfigured and we're throttling legitimate requests. I need to hotfix that today. I'll handle it myself.
+
+Rachel: Critical issue. Please prioritize that, Dev. Moving on — Camille, the onboarding redesign mockups?
+
+Camille: Still in progress. I'll have the high-fidelity mockups ready for stakeholder review by June 20th. I need feedback from Rachel on the revised user flow before I finalize.
+
+Rachel: Noted — I'll send Camille my written feedback on the user flow by this Friday, June 13th.
+
+Luis: QA-side, we need to set up the automated regression suite for the new checkout flow. It's been manual so far. I'll get that automated test suite running by end of next week — June 20th.
+
+Sandra: I need to pull together the retention and activation metrics from Q2 and put them in a dashboard so the team can see trends. I'll have that ready by end of next week. Medium priority since the roadmap planning meeting is June 23rd.
+
+Rachel: Perfect. One more — Dev, we agreed last sprint we'd evaluate two new caching libraries. Can you write up the comparison doc?
+
+Dev: Yeah, low priority but I'll get to it within the next two weeks, by June 23rd.
+
+Rachel: Great. I'll send out meeting notes. See everyone next week.

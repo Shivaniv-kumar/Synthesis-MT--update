@@ -1,0 +1,33 @@
+# Development overrides — loaded automatically by `docker compose up`.
+# Adds volume mounts for hot-reload and exposes extra ports for debugging.
+
+services:
+
+  api:
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    volumes:
+      - ./backend:/app
+    environment:
+      DEBUG: "true"
+
+  worker:
+    volumes:
+      - ./backend:/app
+
+  beat:
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules   # keep container's node_modules, not host's
+    environment:
+      VITE_API_URL: http://localhost:8000/api
+      CHOKIDAR_USEPOLLING: "true"   # needed on Windows/WSL2
+
+  # Expose MinIO console in dev for easy bucket inspection
+  minio:
+    ports:
+      - "9000:9000"
+      - "9001:9001"

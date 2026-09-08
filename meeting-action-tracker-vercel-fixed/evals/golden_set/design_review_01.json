@@ -1,0 +1,35 @@
+{
+  "id": "design_review_01",
+  "description": "Design review meeting with 4 action items using relative due dates (by Friday, next sprint). Tests relative date handling and design-domain vocabulary.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Add dark mode color specifications to the design file",
+      "owner": "Camille Fontaine",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["dark mode", "design file", "Friday", "specs"]
+    },
+    {
+      "task": "Update chart component library to support new design system color tokens",
+      "owner": "Tara Singh",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["chart", "component", "color tokens", "next sprint"]
+    },
+    {
+      "task": "Fix secondary button contrast ratios to meet WCAG AA",
+      "owner": "Camille Fontaine",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["contrast", "secondary button", "WCAG", "accessibility"]
+    },
+    {
+      "task": "Schedule stakeholder review session for navigation pattern and send calendar invites",
+      "owner": "Raj Mehta",
+      "priority": "Medium",
+      "due_date": null,
+      "context_keywords": ["stakeholder", "navigation", "calendar", "invites", "next week"]
+    }
+  ]
+}

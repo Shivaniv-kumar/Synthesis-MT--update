@@ -1,0 +1,28 @@
+{
+  "id": "multilingual_01",
+  "description": "Mostly English meeting with Spanish phrases mixed in. 3 action items. Tests that mixed-language content does not confuse extraction.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Pull campaign performance data and write report for Mexico City launch",
+      "owner": "James Park",
+      "priority": "Medium",
+      "due_date": "2026-06-17",
+      "context_keywords": ["campaign", "performance", "Mexico City", "exec review", "June 17"]
+    },
+    {
+      "task": "Send content freeze to Sofía for Brazil landing page localization",
+      "owner": "James Park",
+      "priority": "Medium",
+      "due_date": "2026-06-15",
+      "context_keywords": ["content freeze", "Brazil", "localization", "June 15"]
+    },
+    {
+      "task": "Localize product landing page for Brazilian market",
+      "owner": "Sofía Mendoza",
+      "priority": "Medium",
+      "due_date": "2026-06-24",
+      "context_keywords": ["localize", "landing page", "Brazil", "Portuguese", "June 24"]
+    }
+  ]
+}

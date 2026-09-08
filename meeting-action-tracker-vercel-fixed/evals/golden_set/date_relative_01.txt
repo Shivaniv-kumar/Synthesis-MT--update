@@ -1,0 +1,23 @@
+Sprint Planning — Mobile Team
+Date: 2026-06-09
+Attendees: Grace Kim (Scrum Master), Rohan Bose (iOS), Dani Cruz (Android), Wendy Larson (Backend)
+
+Grace: Sprint 24 planning. Let's get the action items locked in. Rohan?
+
+Rohan: I'll finish the push notification permission flow on iOS. I need to wrap that up by EOD tomorrow because it's blocking the QA cycle.
+
+Grace: EOD tomorrow, got it. Dani?
+
+Dani: I need to fix the crash on Android when users rotate the screen on the profile page. That one's been in the queue too long. I'll have a fix ready by next Monday.
+
+Grace: Next Monday, noted. Wendy — the batch endpoint?
+
+Wendy: Yes, I'll implement the batch item update endpoint on the backend. It needs to be ready by end of sprint so Rohan and Dani can integrate against it. End of sprint is in two weeks.
+
+Grace: Perfect. Let's make sure we do a sync mid-sprint to make sure the integration is on track. I'll schedule a mid-sprint integration check for next Wednesday.
+
+Wendy: Works for me.
+
+Rohan: Me too.
+
+Grace: Great, let's kick off Sprint 24.

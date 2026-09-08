@@ -1,0 +1,28 @@
+{
+  "id": "messy_transcript_01",
+  "description": "Messy transcript with crosstalk, filler words, and unattributed speaker labels. 3 action items are buried in the noise. Tests robustness to messy input.",
+  "expected_empty": false,
+  "expected_items": [
+    {
+      "task": "Fix onboarding bug preventing users from completing step three",
+      "owner": "Nick",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["onboarding", "bug", "step three", "broken", "end of week"]
+    },
+    {
+      "task": "Send API documentation to the client",
+      "owner": "Tanya",
+      "priority": "High",
+      "due_date": null,
+      "context_keywords": ["API docs", "client", "overdue", "today"]
+    },
+    {
+      "task": "Run load tests on payment endpoint before release",
+      "owner": "Marcus",
+      "priority": "High",
+      "due_date": "2026-06-19",
+      "context_keywords": ["load test", "payment endpoint", "release", "June 19"]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "clean_standup_02",
+  "description": "Clean standup with no action items at all. Tests empty-case behavior — extractor should return nothing.",
+  "expected_empty": true,
+  "expected_items": []
+}
