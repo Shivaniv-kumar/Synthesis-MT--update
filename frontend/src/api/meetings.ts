@@ -57,7 +57,11 @@ export async function getMeeting(id: string): Promise<Meeting> {
  * The meeting status will transition: draft → extracting → extracted.
  */
 export async function triggerExtraction(id: string): Promise<ExtractionTriggerResponse> {
-  return api.post<ExtractionTriggerResponse>(`/meetings/${id}/extract`)
+  return api.post<ExtractionTriggerResponse>(`/meetings/${id}/extract`, undefined, {
+    // Serverless deployments may keep this request open while the AI
+    // extraction fallback completes.
+    timeout: 180_000,
+  })
 }
 
 /**
@@ -84,6 +88,10 @@ export async function uploadTranscriptFile(
     // sending FormData. Setting it to undefined here forces the browser to set
     // multipart/form-data with the correct boundary string instead.
     headers: { 'Content-Type': undefined },
+    // The backend can perform two sequential AI passes (actions + knowledge)
+    // before the serverless invocation finishes. Do not inherit the 30s
+    // default used by ordinary API requests.
+    timeout: 180_000,
     onUploadProgress: (evt) => {
       if (onProgress && evt.total) {
         onProgress(Math.round((evt.loaded / evt.total) * 100))
