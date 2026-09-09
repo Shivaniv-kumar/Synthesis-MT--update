@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import asyncio
 import logging
+import os
 import sys
 from contextlib import asynccontextmanager
 from typing import Any
@@ -280,18 +281,26 @@ async def lifespan(app: FastAPI):  # type: ignore[type-arg]
     setup_metrics()
     logger.info("startup.metrics_ready")
 
+    # A Vercel function may cold-start for any request. Running every DDL
+    # migration during each cold start is both unnecessary and slow enough to
+    # prevent the ASGI lifespan from completing. The schema is provisioned by
+    # migrations outside the request path; Vercel only verifies connectivity.
+    is_vercel = os.getenv("VERCEL") == "1"
+    startup_db_task = check_database() if is_vercel else create_tables()
+    startup_db_timeout = 10.0 if is_vercel else 20.0
+
     try:
-        await asyncio.wait_for(create_tables(), timeout=20.0)
-        logger.info("startup.db_ready")
+        await asyncio.wait_for(startup_db_task, timeout=startup_db_timeout)
+        logger.info(
+            "startup.db_ready",
+            mode="connectivity_check" if is_vercel else "schema_migration",
+        )
     except asyncio.TimeoutError:
-        logger.warning("startup.db_timeout - schema check timed out, server starting anyway")
-        if settings.environment != "development":
-            raise
+        logger.error("startup.db_timeout", mode="connectivity_check" if is_vercel else "schema_migration")
+        raise
     except Exception as exc:
         logger.error("startup.db_failed", error=str(exc))
-        logger.warning("startup.db_skipped - server will start but DB calls will fail until connection is fixed")
-        if settings.environment != "development":
-            raise
+        raise
 
     if settings.seed_admin:
         try:
